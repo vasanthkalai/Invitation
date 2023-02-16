@@ -136,11 +136,11 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/Build.loader.js";
+        const loaderUrl = buildUrl + "/Invitation.loader.js";
         const config = {
-            dataUrl: buildUrl + "/Build.data.unityweb",
-            frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
-            codeUrl: buildUrl + "/Build.wasm.unityweb",
+            dataUrl: buildUrl + "/Invitation.data.unityweb",
+            frameworkUrl: buildUrl + "/Invitation.framework.js.unityweb",
+            codeUrl: buildUrl + "/Invitation.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "VasanthInvitation",
